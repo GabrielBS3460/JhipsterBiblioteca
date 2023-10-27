@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "emprestimo": {
+      "home": {
+        "title": "Emprestimos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Emprestimo",
+        "createOrEditLabel": "Criar ou editar Emprestimo",
+        "notFound": "Nenhum Emprestimo encontrado"
+      },
+      "created": "Um novo Emprestimo foi criado com o identificador {{ param }}",
+      "updated": "Um Emprestimo foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Emprestimo foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Emprestimo {{ id }}?"
+      },
+      "detail": {
+        "title": "Emprestimo"
+      },
+      "id": "ID",
+      "dataEmprestimo": "Data Emprestimo",
+      "estudante": "Estudante",
+      "livro": "Livro"
+    }
+  }
+}

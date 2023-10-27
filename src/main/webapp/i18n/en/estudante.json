@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "estudante": {
+      "home": {
+        "title": "Estudantes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Estudante",
+        "createOrEditLabel": "Create or edit a Estudante",
+        "notFound": "No Estudantes found"
+      },
+      "created": "A new Estudante is created with identifier {{ param }}",
+      "updated": "A Estudante is updated with identifier {{ param }}",
+      "deleted": "A Estudante is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Estudante {{ id }}?"
+      },
+      "detail": {
+        "title": "Estudante"
+      },
+      "id": "Id",
+      "primeiroNome": "Primeiro Nome",
+      "sobrenome": "Sobrenome",
+      "email": "Email",
+      "idade": "Idade"
+    }
+  }
+}

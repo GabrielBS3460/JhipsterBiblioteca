@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "estudante": {
+      "home": {
+        "title": "Estudantes",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Estudante",
+        "createOrEditLabel": "Criar ou editar Estudante",
+        "notFound": "Nenhum Estudante encontrado"
+      },
+      "created": "Um novo Estudante foi criado com o identificador {{ param }}",
+      "updated": "Um Estudante foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Estudante foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Estudante {{ id }}?"
+      },
+      "detail": {
+        "title": "Estudante"
+      },
+      "id": "Id",
+      "primeiroNome": "Primeiro Nome",
+      "sobrenome": "Sobrenome",
+      "email": "Email",
+      "idade": "Idade"
+    }
+  }
+}

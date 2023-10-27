@@ -1,0 +1,28 @@
+entity Estudante {
+  id Long,
+  primeiroNome String required,
+  sobrenome String required,
+  email String required,
+  idade Integer required
+}
+
+entity Livro {
+  id Long,
+  titulo String,
+  autor String,
+  dataLancamento LocalDate
+}
+
+entity Emprestimo {
+  dataEmprestimo LocalDate
+}
+
+relationship OneToOne {
+  Emprestimo{estudante(id)} to Estudante,
+  Emprestimo{livro(id)} to Livro
+}
+
+paginate Estudante, Livro, Emprestimo with pagination
+
+
+
